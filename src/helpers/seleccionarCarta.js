@@ -1,9 +1,8 @@
 import { inicializarBaraja } from "./inicializarBaraja";
-import { inicializarBarajas } from "./inicializarBarajas";
 
 export const seleccionarCarta = () => {
     
-    const baraja = inicializarBarajas();
+    const baraja = inicializarBaraja();
 
     console.log("me ejecute")
 
